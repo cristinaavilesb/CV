@@ -10,7 +10,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- :root {
+:root {
   --bs-blue: #007bff;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -34,26 +34,26 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #38bdb6;
+  --bs-primary: #1c7d7e; /* Azul verdoso */
   --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
+  --bs-success: #1c7d7e; /* Verde azulado */
+  --bs-info: #1c7d7e; /* Azul verdoso */
+  --bs-warning: #e1680e; /* Naranja */
+  --bs-danger: #d63384; /* Rosa oscuro */
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 56, 189, 182;
+  --bs-primary-rgb: 28, 125, 126;
   --bs-secondary-rgb: 108, 117, 125;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
-  --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 220, 53, 69;
+  --bs-success-rgb: 28, 125, 126;
+  --bs-info-rgb: 28, 125, 126;
+  --bs-warning-rgb: 225, 104, 14;
+  --bs-danger-rgb: 214, 51, 132;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 255, 255, 255; /* Cambiado a blanco para mejorar el contraste */
-  --bs-body-bg-rgb: 33, 37, 41; /* Cambiado a negro para mejorar el contraste */
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -73,7 +73,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #000; /* Cambiado a negro para mejorar el contraste */
+  --bs-link-color: #000;
   --bs-link-hover-color: #e1680e;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
